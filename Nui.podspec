@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Nui'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of Nui.'
 
 # This description is used to generate tags and improve search results.
@@ -22,21 +22,15 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/kyanos/Nui'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kyanos' => 'qiujsh@gmail.com' }
   s.source           = { :git => 'https://github.com/qjshuai/alinui.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-#  s.tvos.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
 
-  s.ios.vendored_frameworks
+  s.vendored_frameworks ='Nui/nuisdk.xcframework'
   
-  s.source_files = 'Nui/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Nui' => ['Nui/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
