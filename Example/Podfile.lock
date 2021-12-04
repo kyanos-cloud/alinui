@@ -1,16 +1,23 @@
 PODS:
-  - Nui (1.0.0)
+  - Bugly (2.5.90)
+  - nuisdk (1.0.1)
 
 DEPENDENCIES:
-  - Nui (from `../`)
+  - Bugly
+  - nuisdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Bugly
 
 EXTERNAL SOURCES:
-  Nui:
+  nuisdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nui: 92da0ace9f05027fa32a9b650a00db1628e17ea6
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  nuisdk: 057f480c00be137a4b873712a87cebf08dce0786
 
-PODFILE CHECKSUM: 5bb04e5510081f10144080bcf0b61a93ee4b360c
+PODFILE CHECKSUM: 90e95452d66885a8ac93ac8a2204c4378e46d6fd
 
 COCOAPODS: 1.11.2

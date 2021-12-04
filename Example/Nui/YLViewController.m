@@ -7,6 +7,8 @@
 //
 
 #import "YLViewController.h"
+@import Bugly;
+@import nuisdk;
 
 @interface YLViewController ()
 

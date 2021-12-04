@@ -2,12 +2,14 @@ use_frameworks!
 
 platform :ios, '9.0'
 
-target 'Nui_Example' do
-  pod 'Nui', :path => '../'
+install! 'cocoapods', generate_multiple_pod_projects: true
 
+target 'Nui_Example' do
+  pod 'nuisdk', :path => '../'
+  pod 'Bugly'
+  
   target 'Nui_Tests' do
     inherit! :search_paths
 
-    
   end
 end

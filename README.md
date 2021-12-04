@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+pod repo push yolan Nui.podspec --sources='http://gitlab.rcmtm.com/iOS/YolanSpec.git,https://github.com/CocoaPods/Specs.git' --allow-warnings --skip-import-validation
 
 ## Requirements
 
