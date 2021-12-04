@@ -4,8 +4,11 @@ platform :ios, '9.0'
 
 install! 'cocoapods', generate_multiple_pod_projects: true
 
+source 'http://gitlab.rcmtm.com/iOS/YolanSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'Nui_Example' do
-  pod 'nuisdk', :path => '../'
+  pod 'nuisdk'
   pod 'Bugly'
   
   target 'Nui_Tests' do

@@ -1,23 +1,21 @@
 PODS:
   - Bugly (2.5.90)
-  - nuisdk (1.0.1)
+  - nuisdk (1.0.3)
 
 DEPENDENCIES:
   - Bugly
-  - nuisdk (from `../`)
+  - nuisdk
 
 SPEC REPOS:
+  http://gitlab.rcmtm.com/iOS/YolanSpec.git:
+    - nuisdk
   trunk:
     - Bugly
 
-EXTERNAL SOURCES:
-  nuisdk:
-    :path: "../"
-
 SPEC CHECKSUMS:
   Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
-  nuisdk: 057f480c00be137a4b873712a87cebf08dce0786
+  nuisdk: f2699c3b81168c241a59c4a3e7c6f2db01bf9313
 
-PODFILE CHECKSUM: 90e95452d66885a8ac93ac8a2204c4378e46d6fd
+PODFILE CHECKSUM: 89755e4c07f9d955ec0d7f6a57304d48f4942fb2
 
 COCOAPODS: 1.11.2

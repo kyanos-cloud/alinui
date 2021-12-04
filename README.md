@@ -7,7 +7,7 @@
 
 ## Example
 
-pod repo push yolan Nui.podspec --sources='http://gitlab.rcmtm.com/iOS/YolanSpec.git,https://github.com/CocoaPods/Specs.git' --allow-warnings --skip-import-validation
+pod repo push yolan nuisdk.podspec --sources='http://gitlab.rcmtm.com/iOS/YolanSpec.git,https://github.com/CocoaPods/Specs.git' --allow-warnings --skip-import-validation
 
 ## Requirements
 

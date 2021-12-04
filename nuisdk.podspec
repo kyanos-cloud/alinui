@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'nuisdk'
-  s.version          = '1.0.3'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of Nui.'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/kyanos/Nui'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kyanos' => 'qiujsh@gmail.com' }
-  s.source           = { :http => "https://github.com/qjshuai/alinui/releases/download/1.0.1/nuisdk.zip" }
+  s.source           = { :http => "https://github.com/qjshuai/alinui/releases/download/1.0.5/nuisdk.zip" }
   
   s.requires_arc = true
 

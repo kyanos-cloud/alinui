@@ -62,7 +62,7 @@
 		81D62CD362AC98A84D6B5A06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95A4E7980C54B744F7F24A8F /* Pods-Nui_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nui_Example.debug.xcconfig"; path = "Target Support Files/Pods-Nui_Example/Pods-Nui_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9A8E755E74BAA1C0BE872200 /* Nuisdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Nuisdk.podspec; path = ../Nuisdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A8E755E74BAA1C0BE872200 /* nuisdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nuisdk.podspec; path = ../nuisdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAD6B4456BFCDA688C69C981 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B86903C3247FC1F63D741B0A /* Pods_Nui_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nui_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F17BF2B817A7949BA0A8F1 /* Pods-Nui_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nui_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Nui_Tests/Pods-Nui_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9A8E755E74BAA1C0BE872200 /* Nuisdk.podspec */,
+				9A8E755E74BAA1C0BE872200 /* nuisdk.podspec */,
 				AAD6B4456BFCDA688C69C981 /* README.md */,
 				81D62CD362AC98A84D6B5A06 /* LICENSE */,
 			);
@@ -207,6 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				89FDCD0D101D28E8EFC8A851 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +298,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		89FDCD0D101D28E8EFC8A851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nui_Example/Pods-Nui_Example-frameworks.sh",
+				"${PODS_ROOT}/nuisdk/nuisdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nuisdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nui_Example/Pods-Nui_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B2FE90A6351785C12C0F7BC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
